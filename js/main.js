@@ -111,6 +111,7 @@ function menuHide(){
       gallery:{
         enabled:true
       }
+      
     });
 }());
 
