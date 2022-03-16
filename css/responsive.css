@@ -4,6 +4,11 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+    .img {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+
     .banner-info h2 {
         font-size: 110px;
         line-height: 80px;
@@ -123,6 +128,11 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .img {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+
     .navbar-toggle {
         margin-top: 15px;
     }
@@ -270,6 +280,11 @@
 
 /* xs */
 @media (max-width: 767px) {
+
+    .img {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+      
     .home-two .section-title h1 {
         font-size: 42px;
     }
@@ -606,6 +621,11 @@
 
 /* XS Portrait */
 @media (max-width: 479px) {
+
+    .img {
+        grid-template-columns: repeat(1, 1fr) !important;
+      }
+
     #navigation.menu-two .logo {
         max-width: 75%;
     }
