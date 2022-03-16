@@ -1,36 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-/* * {
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+/* 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins"; */
-
-.container {
+  font-family: "Poppins";
+} */
+.container1 {
   display: flex;
   justify-content: center;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   align-items: center;
-  background-color: #091921;
+  background-color: #f1f5f7;
   flex-wrap: wrap;
 }
 
 
-.images {
+.img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
   margin: 0 1em;
 }
-.images img {
+.img img {
   width: 100%;
   cursor: pointer;
   transition: 0.3s all ease;
 }
-.images img:hover {
+.img img:hover {
   transform: scale(0.9);
 }
-.modal {
+.modal1 {
   position: fixed;
   height: 100%;
   width: 100%;
@@ -43,24 +43,24 @@
   opacity: 0;
   pointer-events: none;
 }
-.modalContent {
+.modal1Content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.modalImg {
+.modal1Img {
   width: 80%;
   max-width: 700px;
 }
-.modalTxt {
+.modal1Txt {
   margin-top: 1em;
 }
-.modalNav {
+.modal1Nav {
   margin-top: 1em;
 }
-.modalNav button {
+.modal1Nav button {
   padding: 10px 45px;
   border: 1px solid #fff;
   background: none;
@@ -79,12 +79,12 @@
   font-size: 1.5em;
   cursor: pointer;
 }
-.modal.appear {
+.modal1.appear {
   opacity: 1;
   pointer-events: all;
 }
-.modal.appear .modalImg,
-.modal.appear .modalTxt {
+.modal1.appear .modal1Img,
+.modal1.appear .modal1Txt {
   animation: zoom 0.3s linear;
 }
 @keyframes zoom {

@@ -655,14 +655,13 @@ ul.sub-menu {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #d68a67;
-    color: rgb(0, 0, 0);
+    background-color: #ef6e30;
+    color: #fff;
     -webkit-transition: all 500ms;
     -moz-transition: all 500ms;
     -ms-transition: all 500ms;
     -o-transition: all 500ms;
     transition: all 500ms;
-    
 }
 .portfolio-item:hover .portfolio-overlay {
     top: 0;
