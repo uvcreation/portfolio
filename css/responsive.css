@@ -635,7 +635,7 @@
         line-height: 15px;
     }
     .banner-info h3 {
-        letter-spacing: 8px;
+        letter-spacing: 10px;
     }
     .achievement {
         text-align: left;
@@ -721,6 +721,7 @@
     }
     .home-two .banner-info {
         padding-left: 15px;
+		padding-top: 60px;
     }
     .home-two .home-social {
         margin-left: 15px;
