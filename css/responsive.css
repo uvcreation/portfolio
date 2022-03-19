@@ -57,6 +57,11 @@
 }
 
 @media (max-width: 991px) {
+
+    .img {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+      
     .navbar-header {
         float: none;
     }
@@ -284,7 +289,7 @@
     .img {
         grid-template-columns: repeat(2, 1fr) !important;
       }
-      
+
     .home-two .section-title h1 {
         font-size: 42px;
     }
