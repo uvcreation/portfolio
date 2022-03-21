@@ -5,6 +5,8 @@
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+    
+
     .img {
         grid-template-columns: repeat(2, 1fr) !important;
       }
@@ -128,6 +130,8 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+
+  
 
     .img {
         grid-template-columns: repeat(2, 1fr) !important;
@@ -622,6 +626,7 @@
 /* XS Portrait */
 @media (max-width: 479px) {
 
+    
     .img {
         grid-template-columns: repeat(1, 1fr) !important;
       }

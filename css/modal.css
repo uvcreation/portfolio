@@ -6,7 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins";
 } */
-.container1 {
+/* .container1 {
   display: flex;
   justify-content: center;
   min-height: 100vh;
@@ -30,7 +30,7 @@
 .img img:hover {
   transform: scale(0.9);
 }
-.modal1 {
+.modal1 { 
   position: fixed;
   height: 100%;
   width: 100%;
@@ -94,4 +94,21 @@
   to {
     transform: scale(1);
   }
+} */
+
+.itm{
+  transition: .5s ease-in-out ;
 }
+.itm:hover{
+  filter:brightness(80%);
+  transform: scale(0.9);
+}
+
+
+
+.item img {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+   
